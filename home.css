@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.hat {
+	min-width: 1000px;
+	width: 100%;
+	height: 600px;
+	overflow: hidden;
+}
+	.hat img {
+		margin: -3px 0 0 -3px;
+		width: 101%;
+		filter: blur(2px) brightness(0.7);
+	}
+	.hat h1 { 
+		width: 100%;
+		color: #E1E1E1;
+	}
+	.hat h1 span {
+		position: absolute;
+		left: 50%;
+		top: 300px;
+		transform: translate(-50%, -50%);
+		font-weight: 1;
+		font-size: 100px;
+	}
+.main-frame1 {
+	width: 96%;
+	margin: 2% 0 0 2%;
+	background-color: #DDDDDD;
+	border-radius: 23px;
+}
+	.main-frame2 {
+		width: 98%;
+		padding: 1%;
+		border-radius: 23px;
+		overflow: hidden;
+	}
+		.info-block {
+			width: 100%;
+			height: 200px;
+		}
+			.info-block button {
+				width: 23.5%; /* нужно 23.75% но не работает((((( */
+				height: 100%;
+				float: left;
+				margin-left: 2%;
+				border-color: rgba(0, 0, 0, 0);
+				color: rgba(0, 0, 0, 0);
+			}
+			#button-about {
+				margin-left: 0;
+			}
+		.links-block {
+			margin-top: 1%;
+			width: 100%;
+			min-height: 300px;
+			height: 700px;
+			border-radius: 12px;
+			overflow: hidden;
+		}
+			.border {
+				width: 49.75%;
+				height: 100%;
+				overflow: hidden;
+				float: left;
+			}
+				.links-block img {
+					width: 100%;
+					height: 100%;
+					transition: 1.2s;
+					cursor: grab;
+				}
+				.links-block img:hover {
+					transform: scale(1.7) rotateX(53deg);
+				}
+				#woman {
+					float: right;
+				}
+.undersite {
+	width: 100%;
+	height: 500px;
+	background-color: #262626;
+	margin-top: 200px;
+}
+	.kostili {
+		color: #262626;
+	}
+	.undersite p {
+		text-align: center;
+		margin-bottom: 10px;
+		transform: translate(0, -100%);
+		color: #b3b3b3;
+		font-family: "Courier New", Courier, monospace;
+		font-weight: 50;
+	}
